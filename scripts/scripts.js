@@ -8,7 +8,6 @@ window.onload = function () {
   slider.onclick = function () {
     slider.classList.toggle("slider-on");
     overlay.classList.toggle("overlay-on");
-    buttonLight2.classList.toggle("dark-buttons");
   };
 
   //Light 1

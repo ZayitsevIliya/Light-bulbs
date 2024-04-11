@@ -68,6 +68,7 @@ body {
 
 .overlay {
   visibility: hidden;
+  pointer-events: none;
 
   height: 100%;
   width: 100%;
@@ -83,7 +84,6 @@ body {
 .overlay-on {
   visibility: visible;
   background-color: #000000b8;
-  pointer-events: none;
 }
 
 /* light 1 */

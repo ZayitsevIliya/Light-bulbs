@@ -10,25 +10,31 @@
   <body>
     <header class="header">
       <h1 class="title">Ligth bulbs</h1>
+      <div id="globalLight" class="global-light">
+        <button class="slider" id="slider"></button>
+      </div>
     </header>
     <div class="lights">
       <div class="case-1">
-        <div id="light1"></div>
+        <div class="light-1" id="light1"></div>
         <div class="buttons-light-1">
-          <button id="buttonLightOn1">On</button>
-          <button id="buttonLightOff1">Off</button>
+          <button class="buttons buttons-on-1" id="buttonLightOn1">On</button>
+          <button class="buttons buttons-off-1" id="buttonLightOff1">
+            Off
+          </button>
         </div>
       </div>
 
       <div class="case-2">
-        <div id="light2"></div>
-        <button id="buttonLight2">On/Off</button>
+        <div class="light-2" id="light2"></div>
+        <button class="buttons buttons2-3" id="buttonLight2">On/Off</button>
       </div>
 
       <div class="case-3">
-        <div id="light3"></div>
-        <button id="buttonLight3">On/Off</button>
+        <div class="light-3" id="light3"></div>
+        <button class="buttons buttons2-3" id="buttonLight3">On/Off</button>
       </div>
     </div>
+    <div id="overlay" class="overlay"></div>
   </body>
 </html>
